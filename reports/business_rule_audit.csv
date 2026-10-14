@@ -1,0 +1,18 @@
+Check,Flagged_Records
+Profit_Margin below 0,655
+Missing Order_ID,0
+Negative Order_Value,0
+Negative Final_Amount,0
+Negative Discount_Applied,0
+Non-positive Delivery_Time_Min,0
+Customer_Age outside 18–100,0
+Restaurant_Rating outside 1–5,0
+Non-positive Distance_km,0
+Delivery_Rating outside 1–5,0
+Profit_Margin above 1,0
+Delivered orders missing delivery time,0
+Cancelled orders with delivery time recorded,0
+Not-yet-delivered statuses with delivery time recorded,0
+Cancelled orders missing/blank cancellation reason,0
+Non-cancelled orders with a cancellation reason other than Not Applicable,0
+Final_Amount differs from Order_Value minus Discount_Applied (where all present),0

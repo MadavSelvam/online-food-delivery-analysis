@@ -1,16 +1,4 @@
-# Python
-__pycache__/
-*.pyc
 
-# Virtual environment
-venv/
 .env
-
-# Streamlit secrets
-.streamlit/secrets.toml
-
-# Generated outputs
-outputs/
-
-# VS Code
-.vscode/
+.venv/
+__pycache__/

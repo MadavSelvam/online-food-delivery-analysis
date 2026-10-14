@@ -1,0 +1,9 @@
+city,total_orders,cancelled_orders,cancellation_rate_pct
+,548,38.0,6.93
+Delhi,12150,786.0,6.47
+Bengaluru,17906,1145.0,6.39
+Mumbai,16889,1049.0,6.21
+Hyderabad,12777,784.0,6.14
+Chennai,21880,1314.0,6.01
+Pune,9909,572.0,5.77
+Kolkata,7941,455.0,5.73

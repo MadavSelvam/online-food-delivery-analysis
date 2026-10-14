@@ -1,0 +1,11 @@
+restaurant_id,restaurant_name,delivered_orders_with_amount,recorded_revenue,average_restaurant_rating
+RES0542,Restaurant_0542,86,90246.65,4.07
+RES0280,Restaurant_0280,74,89965.98,4.06
+RES0590,Restaurant_0590,73,89200.07,3.95
+RES1252,Restaurant_1252,78,88183.79,4.11
+RES1195,Restaurant_1195,86,88166.0,4.04
+RES0561,Restaurant_0561,83,86751.24,4.02
+RES0271,Restaurant_0271,82,86747.62,4.07
+RES0760,Restaurant_0760,75,85370.35,4.02
+RES1177,Restaurant_1177,78,84349.86,4.07
+RES0215,Restaurant_0215,76,84329.84,4.02

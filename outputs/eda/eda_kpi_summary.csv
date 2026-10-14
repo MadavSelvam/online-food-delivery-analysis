@@ -1,0 +1,11 @@
+Metric,Value
+Total Orders,100000.0
+Delivered Orders,89288.0
+Cancelled Orders,6143.0
+Revenue from Delivered Orders,89158164.5
+Average Order Value,1008.4510355046318
+Cancellation Rate (%),6.143
+Average Delivery Time (minutes),61.49634889346833
+Average Delivery Rating,4.177004473201667
+Average Restaurant Rating,4.086834540646199
+Average Profit Margin (%),17.639957217095244

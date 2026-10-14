@@ -1,0 +1,7 @@
+payment_mode,total_orders,delivered_orders,cancelled_orders,average_delivered_final_amount
+UPI,41689,37223.0,2567.0,1009.62
+Credit Card,22023,19685.0,1342.0,1010.35
+Debit Card,15882,14153.0,971.0,1005.97
+COD,11901,10628.0,751.0,1001.74
+Wallet,8014,7159.0,482.0,1014.45
+,491,440.0,30.0,969.59

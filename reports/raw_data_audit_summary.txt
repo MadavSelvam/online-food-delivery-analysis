@@ -1,0 +1,59 @@
+Online Food Delivery Analysis — Raw Dataset Audit
+====================================================
+Source file: D:\online food delivery analysis final\data\raw\online_food_delivery_analysis_dataset.csv
+Rows: 100000
+Columns: 25
+Exact duplicate rows: 0
+Columns with missing values: 13
+Total missing cells: 45724
+
+Missing values by column:
+                     Missing_Count  Missing_Percentage Data_Type  Distinct_Non_Null
+Delivery_Rating              14379              14.380   float64                 32
+Delivery_Time_Min            10712              10.710   float64                139
+Profit_Margin                10712              10.710   float64                431
+Restaurant_Rating             2586               2.590   float64                 32
+Customer_Age                  1476               1.480   float64                 53
+Distance_km                   1334               1.330   float64               3162
+Final_Amount                   997               1.000   float64              76514
+Customer_Gender                990               0.990       str                  4
+City                           548               0.550       str                  7
+Discount_Applied               500               0.500   float64               5466
+Area                           500               0.500       str                 42
+Order_Value                    499               0.500   float64              76790
+Payment_Mode                   491               0.490       str                  5
+Order_ID                         0               0.000       str             100000
+Restaurant_Name                  0               0.000       str               1500
+Restaurant_ID                    0               0.000       str               1500
+Customer_ID                      0               0.000       str              17931
+Cuisine_Type                     0               0.000       str                 10
+Order_Date                       0               0.000       str                366
+Order_Time                       0               0.000       str               1440
+Order_Status                     0               0.000       str                  4
+Delivery_Partner_ID              0               0.000       str               5000
+Cancellation_Reason              0               0.000       str                  6
+Order_Day                        0               0.000       str                  2
+Peak_Hour                        0               0.000      bool                  2
+
+Business-rule flags:
+                                                                           Check  Flagged_Records
+                                                           Profit_Margin below 0              655
+                                                                Missing Order_ID                0
+                                                            Negative Order_Value                0
+                                                           Negative Final_Amount                0
+                                                       Negative Discount_Applied                0
+                                                  Non-positive Delivery_Time_Min                0
+                                                     Customer_Age outside 18–100                0
+                                                   Restaurant_Rating outside 1–5                0
+                                                        Non-positive Distance_km                0
+                                                     Delivery_Rating outside 1–5                0
+                                                           Profit_Margin above 1                0
+                                          Delivered orders missing delivery time                0
+                                    Cancelled orders with delivery time recorded                0
+                          Not-yet-delivered statuses with delivery time recorded                0
+                              Cancelled orders missing/blank cancellation reason                0
+       Non-cancelled orders with a cancellation reason other than Not Applicable                0
+Final_Amount differs from Order_Value minus Discount_Applied (where all present)                0
+
+Reminder: flagged records are investigation candidates, not automatic deletion/imputation instructions.
+The source dataset is synthetic and should be described as such.

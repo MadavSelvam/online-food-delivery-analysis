@@ -1,0 +1,5 @@
+distance_band,delivered_orders_with_distance_and_time,average_delivery_time_min
+0-2 km,4568,40.88
+>2-5 km,21289,46.86
+>5-10 km,32638,57.17
+>10 km,29604,79.95
